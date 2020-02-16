@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains composer_authors.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function composer_authors_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the composer_authors module.
+    case 'help.page.composer_authors':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provide your composer authors with automatic access to the website') . '</p>';
+      return $output;
+
+    default:
+  }
+}

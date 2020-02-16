@@ -1,0 +1,7 @@
+name: 'Composer Authors'
+type: module
+description: 'Provide your composer authors with automatic access to the website'
+core: 8.x
+package: 'Other'
+dependencies:
+  - user

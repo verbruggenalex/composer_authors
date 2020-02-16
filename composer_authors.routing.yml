@@ -1,0 +1,9 @@
+composer_authors.composer_authors_form:
+  path: '/admin/config/peopele/composer_authors'
+  defaults:
+    _form: '\Drupal\composer_authors\Form\ComposerAuthorsForm'
+    _title: 'Composer Authors'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

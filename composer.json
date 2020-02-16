@@ -1,0 +1,5 @@
+{
+    "name": "drupal/composer_authors",
+    "type": "drupal-module",
+    "description": "Provide your composer authors with automatic access to the website"
+}

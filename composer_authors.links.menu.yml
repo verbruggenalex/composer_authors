@@ -1,0 +1,6 @@
+composer_authors.composer_authors_form:
+  title: 'Composer Authors'
+  route_name: composer_authors.composer_authors_form
+  description: 'Configure Composer authors access'
+  parent: user.admin_index
+  weight: 99
